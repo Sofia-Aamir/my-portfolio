@@ -755,6 +755,11 @@ section,
   .hero p {
     font-size: 20px;
   }
+
+  .hero img {
+    object-fit: cover;
+    object-position: right; /* Crop the left side of the image */
+  }
 }
 
 /*--------------------------------------------------------------
